@@ -60,7 +60,6 @@ export class Client {
         return;
       }
       handler.setStatus?.();
-      console.log("requesting state");
       this.send("requestState");
     });
   }
