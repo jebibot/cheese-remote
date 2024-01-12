@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className="bg-white dark:bg-gray-900 dark:text-gray-50">
+      <body className="bg-white dark:bg-gray-900 dark:text-gray-50 overflow-hidden">
         <ChakraProvider>{children}</ChakraProvider>
       </body>
     </html>
