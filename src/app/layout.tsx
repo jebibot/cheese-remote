@@ -12,7 +12,26 @@ export const preferredRegion = "icn1";
 
 export const metadata: Metadata = {
   title: "치즈 리모컨",
-  description: "치지직 후원 알림 목록, 일시정지, 스킵, 볼륨 조절",
+  description: "치지직 치즈 후원 기록, 알림 일시정지, 스킵, 시간, 볼륨 조절",
+  keywords: [
+    "CHZZK",
+    "remote",
+    "control",
+    "리모콘",
+    "네이버",
+    "스트리머",
+    "streamer",
+    "TTS",
+    "도네이션",
+    "donation",
+    "cheese",
+    "Twippy",
+    "TOONA",
+  ],
+  metadataBase: new URL("https://remote.chz.app"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

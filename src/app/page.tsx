@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           <a
             className="text-2xl"
-            href="https://discord.gg/Ve2yKAh2sQ"
+            href="https://discord.gg/9kq3UNKAkz"
             target="_blank"
           >
             <FontAwesomeIcon icon={faDiscord} />

@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /donation
+Disallow: /remote
+
+Sitemap: https://remote.chz.app/sitemap.xml
