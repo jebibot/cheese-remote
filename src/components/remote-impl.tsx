@@ -85,6 +85,7 @@ export default function RemoteImpl({ sessionUrl }: RemoteProps) {
 
   return (
     <Remote
+      className="h-screen"
       donations={donations}
       paused={paused}
       volume={volume}
