@@ -1,4 +1,4 @@
-import { useToast } from "@chakra-ui/toast";
+import { useToast } from "@chakra-ui/react";
 import { ReactNode, useCallback, useId } from "react";
 
 interface UrlBoxProps {

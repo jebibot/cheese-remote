@@ -57,11 +57,17 @@ export default function Home() {
             </a>
           </div>
           <div className="flex gap-2 text-2xl text-gray-400">
-            <a href="https://www.chz.app/" target="_blank">
+            <a href="https://www.chz.app/" target="_blank" title="웹사이트">
               <FontAwesomeIcon icon={faHouse} />
+              <span className="sr-only">웹사이트</span>
             </a>
-            <a href="https://discord.gg/9kq3UNKAkz" target="_blank">
+            <a
+              href="https://discord.gg/9kq3UNKAkz"
+              target="_blank"
+              title="디스코드"
+            >
               <FontAwesomeIcon icon={faDiscord} />
+              <span className="sr-only">디스코드</span>
             </a>
           </div>
         </div>

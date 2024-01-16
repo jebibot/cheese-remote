@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@chakra-ui/slider": "^2.1.0",
-    "@chakra-ui/toast": "^7.0.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
