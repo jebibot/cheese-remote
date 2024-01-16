@@ -2,6 +2,7 @@ import {
   faArrowUpRightFromSquare,
   faCircleInfo,
   faCopy,
+  faHouse,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -49,19 +50,20 @@ export default function Home() {
             자산입니다.{" "}
             <a
               className="text-emerald-500 hover:underline dark:text-emerald-400"
-              href="https://www.chatlink.app/privacy"
+              href="https://www.chz.app/privacy"
               target="_blank"
             >
               개인정보처리방침
             </a>
           </div>
-          <a
-            className="text-2xl"
-            href="https://discord.gg/9kq3UNKAkz"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faDiscord} />
-          </a>
+          <div className="flex gap-2 text-2xl text-gray-400">
+            <a href="https://www.chz.app/" target="_blank">
+              <FontAwesomeIcon icon={faHouse} />
+            </a>
+            <a href="https://discord.gg/9kq3UNKAkz" target="_blank">
+              <FontAwesomeIcon icon={faDiscord} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="lg:col-span-5 xl:col-span-4">
