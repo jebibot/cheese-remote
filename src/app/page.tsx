@@ -4,6 +4,7 @@ import {
   faCopy,
   faHouse,
   faLink,
+  faWarning,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Generator from "@/components/generator";
@@ -37,12 +38,16 @@ export default function Home() {
             windowIcon={<FontAwesomeIcon icon={faArrowUpRightFromSquare} />}
             copyIcon={<FontAwesomeIcon icon={faCopy} />}
           >
+            <div className="px-4 py-3 mb-2 rounded-lg text-gray-800 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
+              <FontAwesomeIcon icon={faWarning} /> 주소 방송 노출에 주의하여
+              주세요! XSplit의 경우, 웹 페이지 소스 이름과 확장 프로그램 제목에
+              주소가 노출됩니다.
+            </div>
             <div className="px-4 py-3 mb-4 rounded-lg text-gray-800 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
-              <FontAwesomeIcon icon={faCircleInfo} /> 주소 방송 노출에 주의하여
-              주세요! 리모컨을 OBS 스튜디오에서{" "}
-              <span className="font-semibold">독 &gt; 사용자 브라우저 독</span>
-              으로 추가하면 주소 노출 없이 방송 시마다 실행되도록 할 수
-              있습니다.
+              <FontAwesomeIcon icon={faCircleInfo} /> 리모컨을 OBS의{" "}
+              <span className="font-semibold">사용자 브라우저 독</span> 또는
+              XSplit의 <span className="font-semibold">확장 프로그램</span>으로
+              추가하면 방송 시마다 실행되도록 할 수 있습니다.
             </div>
           </Generator>
           <div className="mb-2 text-sm text-gray-500 dark:text-gray-300">
