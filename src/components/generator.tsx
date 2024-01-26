@@ -5,6 +5,7 @@ import UrlBox from "./url-box";
 
 interface GeneratorProps {
   linkIcon: ReactNode;
+  infoIcon: ReactNode;
   copyIcon: ReactNode;
   windowIcon: ReactNode;
   children: ReactNode;
@@ -12,6 +13,7 @@ interface GeneratorProps {
 
 export default function Generator({
   linkIcon,
+  infoIcon,
   copyIcon,
   windowIcon,
   children,
@@ -49,15 +51,19 @@ export default function Generator({
         <>
           <UrlBox
             title="리모컨 주소"
+            description="OBS의 사용자 브라우저 독 또는 XSplit의 확장 프로그램으로 추가해주세요"
             url={remoteUrl}
             windowFeatures="width=600,height=900"
+            infoIcon={infoIcon}
             copyIcon={copyIcon}
             windowIcon={windowIcon}
           />
           <UrlBox
             title="후원 알림창"
+            description="OBS의 브라우저 또는 XSplit의 웹 페이지 소스로 추가해주세요"
             url={alertUrl}
             windowFeatures="width=600,height=500"
+            infoIcon={infoIcon}
             copyIcon={copyIcon}
             windowIcon={windowIcon}
           />

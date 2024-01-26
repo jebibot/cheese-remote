@@ -1,18 +1,22 @@
-import { useToast } from "@chakra-ui/react";
+import { Tooltip, useToast } from "@chakra-ui/react";
 import { ReactNode, useCallback, useId } from "react";
 
 interface UrlBoxProps {
   title: string;
+  description: string;
   url: string;
   windowFeatures?: string;
+  infoIcon: ReactNode;
   copyIcon: ReactNode;
   windowIcon: ReactNode;
 }
 
 export default function UrlBox({
   title,
+  description,
   url,
   windowFeatures,
+  infoIcon,
   copyIcon,
   windowIcon,
 }: UrlBoxProps) {
@@ -42,7 +46,12 @@ export default function UrlBox({
   return (
     <div className="relative flex items-center mb-3">
       <div className="shrink-0 m-2 font-semibold dark:text-gray-200">
-        {title}
+        <Tooltip label={description} closeDelay={300}>
+          <div>
+            {title}
+            {infoIcon}
+          </div>
+        </Tooltip>
       </div>
       <div className="flex-1 p-3 pr-16 rounded-lg text-sm text-gray-900 dark:text-white dark:placeholder-gray-400 truncate border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-emerald-500 focus:border-emerald-500 outline-none select-all">
         {url}

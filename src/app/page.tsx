@@ -35,19 +35,16 @@ export default function Home() {
           </p>
           <Generator
             linkIcon={<FontAwesomeIcon icon={faLink} />}
+            infoIcon={
+              <FontAwesomeIcon className="ml-1" icon={faCircleInfo} size="xs" />
+            }
             windowIcon={<FontAwesomeIcon icon={faArrowUpRightFromSquare} />}
             copyIcon={<FontAwesomeIcon icon={faCopy} />}
           >
             <div className="px-4 py-3 mb-2 rounded-lg text-gray-800 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
               <FontAwesomeIcon icon={faWarning} /> 주소 방송 노출에 주의하여
               주세요! XSplit의 경우, 웹 페이지 소스 이름과 확장 프로그램 제목에
-              주소가 노출됩니다.
-            </div>
-            <div className="px-4 py-3 mb-4 rounded-lg text-gray-800 dark:text-gray-300 bg-gray-50 dark:bg-gray-800">
-              <FontAwesomeIcon icon={faCircleInfo} /> 리모컨을 OBS의{" "}
-              <span className="font-semibold">사용자 브라우저 독</span> 또는
-              XSplit의 <span className="font-semibold">확장 프로그램</span>으로
-              추가하면 방송 시마다 실행되도록 할 수 있습니다.
+              주소가 노출되며, 이름을 바꾸거나 너비를 조정하여 숨길 수 있습니다.
             </div>
           </Generator>
           <div className="mb-2 text-sm text-gray-500 dark:text-gray-300">
