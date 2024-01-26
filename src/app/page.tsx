@@ -14,8 +14,8 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 export default function Home() {
   return (
     <main className="flex flex-col-reverse lg:grid max-w-screen-xl px-4 py-8 lg:py-16 mx-auto gap-12 xl:gap-0 lg:grid-cols-12">
-      <div className="mt-4 mx-auto lg:ml-0 lg:col-span-7 xl:col-span-8">
-        <div className="max-w-2xl">
+      <div className="w-full mt-4 lg:col-span-7 xl:col-span-8">
+        <div className="max-w-2xl mx-auto lg:ml-0">
           <h1 className="mb-4 text-4xl md:text-5xl font-extrabold dark:text-white">
             치즈 리모컨
           </h1>
