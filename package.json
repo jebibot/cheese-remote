@@ -30,7 +30,7 @@
     "@types/socket.io-client": "^1.4.36",
     "autoprefixer": "^10.4.17",
     "dotenv": "^16.4.1",
-    "esbuild": "^0.19.12",
+    "esbuild": "^0.20.0",
     "esbuild-plugin-environment": "^0.3.0",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
