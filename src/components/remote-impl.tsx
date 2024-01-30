@@ -18,7 +18,14 @@ function parseDonation(donation: string) {
   return {
     time: Date.now(),
     animationUrl: d.animationUrl,
-    profile: JSON.parse(d.profile),
+    profile: d.isAnonymous
+      ? {
+          nickname: "익명의 후원자",
+          userIdHash: "",
+          userRoleCode: "",
+          verifiedMark: false,
+        }
+      : JSON.parse(d.profile),
     donationId: d.donationId,
     payAmount: d.payAmount,
     donationText: d.donationText,
