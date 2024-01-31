@@ -38,7 +38,7 @@ export default function Generator({
           {linkIcon}
         </div>
         <input
-          className="block w-full p-3 pl-10 flex-1 rounded-lg text-sm text-gray-900 dark:text-white dark:placeholder-gray-400 truncate border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
+          className="block w-full p-3 pl-10 flex-1 rounded-lg text-sm text-gray-900 dark:text-white dark:placeholder-gray-400 border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
           placeholder="https://chzzk.naver.com/donation/donation@..."
           type="url"
           id="alertUrl"
