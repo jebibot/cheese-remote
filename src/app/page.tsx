@@ -9,7 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Generator from "@/components/generator";
 import RemoteDemo from "@/components/remote-demo";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -62,6 +62,14 @@ export default function Home() {
             <a href="https://www.chz.app/" target="_blank" title="웹사이트">
               <FontAwesomeIcon icon={faHouse} />
               <span className="sr-only">웹사이트</span>
+            </a>
+            <a
+              href="https://github.com/jebibot/cheese-remote"
+              target="_blank"
+              title="GitHub"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+              <span className="sr-only">GitHub</span>
             </a>
             <a
               href="https://discord.gg/9kq3UNKAkz"
