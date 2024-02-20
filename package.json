@@ -29,7 +29,7 @@
     "@types/react-reconciler": "^0.28.8",
     "@types/socket.io-client": "^1.4.36",
     "autoprefixer": "^10.4.17",
-    "dotenv": "^16.4.4",
+    "dotenv": "^16.4.5",
     "esbuild": "^0.20.1",
     "esbuild-plugin-environment": "^0.3.0",
     "eslint": "^8.56.0",
