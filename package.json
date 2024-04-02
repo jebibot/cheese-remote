@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/howler": "^2.2.11",
     "@types/node": "^20.12.2",
-    "@types/react": "^18.2.73",
+    "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
     "@types/react-reconciler": "^0.28.8",
     "@types/socket.io-client": "^1.4.36",
