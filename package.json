@@ -25,7 +25,7 @@
     "@types/howler": "^2.2.11",
     "@types/node": "^20.12.4",
     "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.23",
+    "@types/react-dom": "^18.2.24",
     "@types/react-reconciler": "^0.28.8",
     "@types/socket.io-client": "^1.4.36",
     "autoprefixer": "^10.4.19",
